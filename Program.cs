@@ -60,6 +60,11 @@ public class Order
         // In a real application, you would generate a unique order number.
         return orderNumber;
     }
+    public void SetOrderNumber(int o)
+    {
+        //this.
+        orderNumber = o;
+    }
 
     private double totalAmount { get; set; }
     public double GetTotalAmount()
